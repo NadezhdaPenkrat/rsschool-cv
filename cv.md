@@ -1,9 +1,9 @@
 # Nadezhda Penkrat
 
 ## Contacts
-### https://github.com/NadezhdaPenkrat
+https://github.com/NadezhdaPenkrat
 
-----
+
 
 ## TECHNICAL SKILLS:
 ### JavaScript
@@ -13,7 +13,6 @@
 - DOM,
 - JSON.
 
-----
 ## Key skills
 - HTML
 - CSS 
@@ -22,7 +21,6 @@
 - Figma(for web development)
 - Editors:  VSCode
 
-----
 ## Language skills:
 - English - - C1 - Advanced
 - Belarusian - C2 - Native
@@ -31,12 +29,12 @@
 - German - A1 - Basic
 - Russian - In perfection
 
-----
+
 ## Personal skills:
 - Purposefulness 
 - Perseverance 
 - Resposiveness
-----
+
 ## About me
 Turn complex things 
 into simple ones.
