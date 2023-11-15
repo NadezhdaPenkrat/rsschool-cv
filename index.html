@@ -1,129 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV Nadezhda Penkrat</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="header">
-    <h1>Nadezhda Penkrat</h1>
-    
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Nadezhda Penkrat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Nadezhda Penkrat</h1>
+    </div>
 
-  <div class="topnav">
-    <a href="#profile" class="nav-link">Profile</a> 
-    <a href="#contacts" class="nav-link">Contacts</a> 
-    <a href="#skills" class="nav-link">Skills</a> 
-    <a href="#code" class="nav-link">Code</a> 
-    <a href="#education" class="nav-link">Education</a> 
-    <a href="#languages" class="nav-link">Languages</a> 
-    <a href="#aboutme" class="nav-link" style="float:right">About Me</a>
-  </div>
-  
-  <div class="row">
-    <div class="leftcolumn">
-      <div class="profile" id="profile">
-        <h2>Profile</h2>
-          <!-- <img src="./assets/img/cv-avatar.jpg" alt="my avatar" /> -->
-        <div class="image" style="height:650px;width:600px;" src="./assets/image.png" alt="my photo" >Image</div>
-        <p>Nadezhda Penkrat </p>
-        <p>Junior Front-End Developer</p>
-      </div>
-      
-      
-     
-      <div class="code" id="code">
-        <h2>Code</h2>
-        <pre>
+    <div class="topnav">
+      <a href="#profile" class="nav-link">Profile</a>
+      <a href="#contacts" class="nav-link">Contacts</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#code" class="nav-link">Code</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#languages" class="nav-link">Languages</a>
+      <a href="#aboutme" class="nav-link" style="float: right">About Me</a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="profile" id="profile">
+          <h2>Profile</h2>
+         
+          <div
+            class="image"
+            style="height: 650px; width: 600px"
+            src="./assets/image.png"
+            alt="my photo"
+          >
+            Image
+          </div>
+          <p>Nadezhda Penkrat</p>
+          <p>Junior Front-End Developer</p>
+        </div>
+
+        <div class="code" id="code">
+          <h2>Code</h2>
+          <pre>
           <code>var countBits = function(n) {
             return n.toString(2).replace(/0/g,'').length;
           };
           </code>
         </pre>
-        
-        <p>Write a function that takes an integer as input, 
-          and returns the number of bits
-          that are equal to one in the binary
-           representation of that number. 
-           You can guarantee that input is non-negative.</p>
-           <p>Example: The binary representation of 1234 is 10011010010,
-            so the function should return 5 in this case </p>
 
+          <p>
+            Write a function that takes an integer as input, and returns the
+            number of bits that are equal to one in the binary representation of
+            that number. You can guarantee that input is non-negative.
+          </p>
+          <p>
+            Example: The binary representation of 1234 is 10011010010, so the
+            function should return 5 in this case
+          </p>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="contacts" id="contacts">
+          <h2>Contacts</h2>
+          <ul class="list">
+            <li class="contacts-item">
+              <span class="bold">Discord: </span>nadezhdapenkrat
+            </li>
+            <li class="contacts-item">
+              <span class="bold">GitHub: </span
+              ><a class="link" href="https://github.com/NadezhdaPenkrat"
+                >NadezhdaPenkrat</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="skills" id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>JavaScript</li>
+            <li>VS Code</li>
+            <li>Git, GitHub</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Figma</li>
+            <li>Windows OS</li>
+          </ul>
+        </div>
+        <div class="languages" id="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>English - - C1 - Advanced</li>
+            <li>German - A1 - Basic</li>
+            <li>Belarusian - C2 - Native</li>
+            <li>Ukrainian - C2 - Native</li>
+            <li>Polish - A2 -Basic</li>
+            <li>Russian - In perfection</li>
+          </ul>
+        </div>
+        <div class="education" id="education">
+          <h2>Education</h2>
+
+          <ul>
+            <li>
+              RS School
+              <ul>
+                <li>JavaScript/Front-end. Stage 1</li>
+                <li>JavaScript/Front-end. Stage 0</li>
+              </ul>
+            </li>
+            <li>
+              Educational Establishment Belarusian State Economic University
+            </li>
+          </ul>
+        </div>
+        <div class="aboutme" id="aboutme">
+          <h2>About Me</h2>
+          <p>Have a good day!</p>
+          <p>
+            I am learning Java programming and enjoy application development.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="rightcolumn">
-      <div class="contacts" id="contacts">
-        <h2>Contacts</h2>
-        <ul class="list">
-          <li class="contacts-item"><span class="bold">Discord: </span>nadezhdapenkrat</li>
-          <li class="contacts-item"><span class="bold">GitHub: </span><a class="link" href="https://github.com/NadezhdaPenkrat">NadezhdaPenkrat</a></li>
-          
-        </ul>
-      </div>
-     
-      <div class="skills" id="skills">
-        <h2>Skills</h2>
-        <ul>
-         <li>JavaScript</li>
-         <li>VS Code</li>
-         <li>Git, GitHub</li>
-         <li>HTML</li>
-         <li>CSS</li>
-         <li>Figma</li>
-         <li>Windows OS</li>
-       
-         
-         
-       </ul>
-      </div>
-      <div class="languages" id="languages">
-        <h2>Languages</h2>
-        <ul>
-          <li>English - - C1 - Advanced </li>
-          <li>German - A1 - Basic</li>
-          <li>Belarusian - C2 - Native</li>
-          <li>Ukrainian - C2 - Native</li>
-          <li>Polish - A2 -Basic </li>
-          <li>Russian - In perfection</li>
+    <div class="footer">
+      <p>
+        <a class="nav-link" href="https://github.com/NadezhdaPenkrat"
+          >NadezhdaPenkrat</a
+        >
+      </p>
 
-          
-        </ul>
-      </div>
-      <div class="education" id="education">
-        <h2>Education</h2>
-        
-        <ul>
-          <li> RS School
-            <ul>
-              <li>JavaScript/Front-end. Stage 1</li>
-              <li>JavaScript/Front-end. Stage 0</li>
-            </ul>
-          </li>
-          <li>Educational Establishment Belarusian State Economic University</li>
-         
-          
-        </ul>
-      </div>
-      <div class="aboutme"  id="aboutme">
-        <h2>About Me</h2>
-         <p>Have a good day!</p>
-        <p> I am learning Java programming and  enjoy application development.</p>
-    
-      </div>
+      <p>&copy; 2023</p>
+
+      <a target="_blank" href="https://rs.school/js/">
+        <img
+          class="footer-link"
+          src="./assets/rs_school_js.svg"
+          alt="Rsschool Icon"
+          height="25"
+        />
+      </a>
     </div>
-  </div>
-  <div class="footer">
-
-    <p> <a class="nav-link" href="https://github.com/NadezhdaPenkrat">NadezhdaPenkrat</a></p>
-
-            <p>&copy; 2023 </p>
-            
-    <a target="_blank" href="https://rs.school/js/">
-      <img class="footer-link" src="./assets/rs_school_js.svg" alt="Rsschool Icon" height="25">
-    </a>
-  
-  </div>
-</body>
+  </body>
 </html>
