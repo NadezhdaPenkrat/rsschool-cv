@@ -26,11 +26,34 @@
     <div class="leftcolumn">
       <div class="profile" id="profile">
         <h2>Profile</h2>
-        
-        <div class="img" style="height:200px;" src="assets/image.png" alt="my photo" >Image</div>
+          <!-- <img src="./assets/img/cv-avatar.jpg" alt="my avatar" /> -->
+        <div class="image" style="height:650px;width:600px;" src="./assets/image.png" alt="my photo" >Image</div>
         <p>Nadezhda Penkrat </p>
         <p>Junior Front-End Developer</p>
       </div>
+      
+      
+     
+      <div class="code" id="code">
+        <h2>Code</h2>
+        <pre>
+          <code>var countBits = function(n) {
+            return n.toString(2).replace(/0/g,'').length;
+          };
+          </code>
+        </pre>
+        
+        <p>Write a function that takes an integer as input, 
+          and returns the number of bits
+          that are equal to one in the binary
+           representation of that number. 
+           You can guarantee that input is non-negative.</p>
+           <p>Example: The binary representation of 1234 is 10011010010,
+            so the function should return 5 in this case </p>
+
+      </div>
+    </div>
+    <div class="rightcolumn">
       <div class="contacts" id="contacts">
         <h2>Contacts</h2>
         <ul class="list">
@@ -39,46 +62,7 @@
           
         </ul>
       </div>
-      <div class="education" id="education">
-        <h2>Education</h2>
-        
-        <ul>
-          <li>Educational Establishment Belarusian State Economic University</li>
-         
-          <li> RS School
-            <ul>
-              <li>JavaScript/Front-end. Stage 1</li>
-              <li>JavaScript/Front-end. Stage 0</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
      
-      <div class="code" id="code">
-        <h2>Code</h2>
-        ## Code Example
-
-Write a function that takes an integer as input, 
-and returns the number of bits
-that are equal to one in the binary
- representation of that number. 
- You can guarantee that input is non-negative.
-
-Example: The binary representation of 1234 is 10011010010,
- so the function should return 5 in this case
-```
-var countBits = function(n) {
-  return n.toString(2).replace(/0/g,'').length;
-};
-```
-      </div>
-    <div class="rightcolumn">
-      <div class="aboutme"  id="aboutme">
-        <h2>About Me</h2>
-         <p>Have a good day!</p>
-        <p> I am learning Java programming and  enjoy application development.</p>
-    
-      </div>
       <div class="skills" id="skills">
         <h2>Skills</h2>
         <ul>
@@ -107,8 +91,39 @@ var countBits = function(n) {
           
         </ul>
       </div>
+      <div class="education" id="education">
+        <h2>Education</h2>
+        
+        <ul>
+          <li> RS School
+            <ul>
+              <li>JavaScript/Front-end. Stage 1</li>
+              <li>JavaScript/Front-end. Stage 0</li>
+            </ul>
+          </li>
+          <li>Educational Establishment Belarusian State Economic University</li>
+         
+          
+        </ul>
+      </div>
+      <div class="aboutme"  id="aboutme">
+        <h2>About Me</h2>
+         <p>Have a good day!</p>
+        <p> I am learning Java programming and  enjoy application development.</p>
+    
+      </div>
     </div>
   </div>
-  
+  <div class="footer">
+    <div class="container footer-container">
+    
+      <p> <a class="nav-link" href="https://github.com/NadezhdaPenkrat">NadezhdaPenkrat</a></p>
+    </a>
+    <p>&copy; 2023 </p>
+    <a target="_blank" href="https://rs.school/js/">
+      <img class="footer-link" src="./assets/rs_school_js.svg" alt="Rsschool Icon" height="25">
+    </a>
+  </div>
+  </div>
 </body>
 </html>
