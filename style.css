@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 25;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+  
+  body {
+    display: grid;
+    font-family: "Arial", serif;
+    min-height: 65vh;
+     font-size: 22px;
+      flex-direction: column;
+    justify-content: flex-start;
+    
+    
+   
+  }
+  
+  
