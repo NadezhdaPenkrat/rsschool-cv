@@ -58,7 +58,9 @@
   /* Image */
 .image {
     background-color: #aaa;
-    width: 90%;
+    
+    height: 650px;
+    width: 600px;
     padding: 20px;
     background-image: url(./assets/image.png);
   }
@@ -95,7 +97,9 @@
    
     text-decoration: none;
   }
-  
+  .footer-link{
+    height:40px;
+  }
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {   
