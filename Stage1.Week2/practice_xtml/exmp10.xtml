@@ -1,0 +1,18 @@
+    <!-- 
+    Создайте разметку для списка:
+
+JavaScript Career
+Frontend
+Backend
+PHP Career
+      -->
+
+      <ol>
+  <li>JavaScript Career
+    <ul>
+      <li>Frontend</li>
+      <li>Backend</li>
+    </ul>
+  </li>
+  <li>PHP Career</li>
+</ol>

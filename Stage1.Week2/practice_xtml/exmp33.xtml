@@ -1,0 +1,19 @@
+<!-- 
+
+ Создайте разметку «шапки» сайта. 
+ Расположите внутри картинку и маркированный список из двух ссылок
+  -->
+
+
+  <header>
+    <img src="/logo.png" 
+         alt="Code Basics">
+    <ul>
+        <li>
+            <a href="/languages/html">HTML Course</a>
+        </li>
+        <li>
+            <a href="/languages/css">CSS Course</a>
+        </li>
+    </ul>
+</header>

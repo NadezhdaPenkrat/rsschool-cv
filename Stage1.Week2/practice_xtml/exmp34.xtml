@@ -1,0 +1,17 @@
+<!-- 
+Создайте разметку «шапки» сайта. 
+Расположите внутри картинку и меню 
+из двух элементов. Используйте 
+тег <nav> и маркированный список
+ 
+  -->
+
+  <header>
+    <img src="/logo.png" alt="Code Basics">
+    <nav>
+        <ul>
+            <li><a href="/languages/html">HTML Course</a></li>
+            <li><a href="/languages/css">CSS Course</a></li>
+        </ul>
+    </nav>
+</header>
