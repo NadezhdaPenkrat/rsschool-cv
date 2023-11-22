@@ -1,0 +1,34 @@
+/*
+Создайте анимацию, меняющую цвет текста с чёрного на белый. 
+Примените анимацию к классу black-white.
+ Стили запишите в теге <style>. После,
+  оберните произвольный текст в тег <p>
+   и укажите для него класс black-white.
+*/
+
+/*
+<style>
+  @keyframes to-white {
+    0% {
+      color: black;
+    }
+
+    50% {
+      color: white;
+    }
+
+    100% {
+      color: black;
+    }
+  }
+
+  .black-white {
+    animation: to-white 3s infinite;
+  }
+</style>
+
+<p class="black-white">
+Текст с анимацией to-white. 
+Цвет текста меняется с чёрного на белый и обратно
+</p>
+*/

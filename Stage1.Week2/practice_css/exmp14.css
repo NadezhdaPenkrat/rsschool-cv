@@ -1,0 +1,17 @@
+/*
+Добавьте в редактор параграф с классом 
+italic-type и установите начертание oblique. 
+Стили добавьте в тег <style>
+
+*/
+
+/*
+<style>
+  .italic-type {
+    font-style: oblique;
+  }
+</style>
+
+<p class="italic-type">Курсивный текст</p>
+
+*/
