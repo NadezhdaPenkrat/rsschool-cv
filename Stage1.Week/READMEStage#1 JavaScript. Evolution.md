@@ -47,3 +47,78 @@ In the "JavaScript. Evolution" module, students will dive into the modern featur
 - [ [RU] EcmaScript - Complete course (ES6, ES7, ES8)](https://www.youtube.com/watch?v=Ti2Q4sQkNdU) - 2,5h
 - [The State Of JavaScript](https://stateofjs.com/)
 - [You Don't Know JS: ES6 & Beyond](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond)
+
+
+
+List installed packages
+npm list
+This shows us probably too much because we see the dependencies of our dependencies…
+Use the --depth to limit the depth of your search
+npm list --depth=0
+As you can see the output when you limit the depth:
+
+https://bobbyhadz.com/blog/javascript-convert-object-to-map
+
+Map is a collection of key/value pairs.
+Map keys and values can be of any type
+(arrays, objects, numbers, and other primitive data types).
+Map iterates its elements in insertion order. 
+Before the introduction of map, you would have to use an object
+   
+Your package. json holds important information about the project. 
+It contains human-readable metadata about 
+the project (like the project name and description)
+as well as functional metadata like the package
+version number and a list of dependencies required by the application.
+
+To create a default package.json using information 
+extracted from the current directory, 
+use the npm init command with the --yes or -y flag. 
+For a list of default values, see "Default values extracted from the current directory". 
+On the command line, navigate to the root directory of your package.
+
+Minor Version A minor version change indicates 
+that there are new features added to the package 
+but still maintains backward compatibility. 
+This means that if you update to a new minor version, 
+your code should still work with the new version of the package.26 апр. 2023 г.
+
+Code status        	Stage	          Rule	            Example version
+First release	      New product	    Start with 1.0.0	1.0.0
+Backward compatible 
+bug fixes	          Patch release	  Increment the 
+                                      third digit	   1.0.1
+Backward compatible 
+new features	     Minor release	  Increment the middle
+                                    digit and reset
+                                     last digit
+                                          to zero	   1.1.0
+Changes that break 
+backward
+ compatibility       	Major release	
+                                    Increment the 
+                                    first digit and
+                                     reset middle
+                                      and last digits
+                                       to zero	
+                                                     2.0.0
+
+https://robotdreams.cc/blog/271-chto-takoe-npm-i-zachem-on-nuzhen
+
+npm stands for Node Package Manager. 
+It's a library and registry for JavaScript software packages. 
+npm also has command-line tools to help you 
+install the different packages and manage their dependencies.
+ npm is free and relied on by over 11 million developers worldwide.
+
+ npm consists of three distinct components:
+  the website.
+   the Command Line Interface (CLI) 
+   the registry.
+
+Package JSON scripts consist of predefined commands
+that can be executed via the command line using 
+the Node Package Manager (npm). 
+These npm scripts are defined in the package. 
+json file, which is the configuration 
+file for node package json projects.
