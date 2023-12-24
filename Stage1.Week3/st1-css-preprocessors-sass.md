@@ -38,3 +38,10 @@ Expand your knowledge and skills in CSS preprocessors and Sass with these additi
 
 1. [Sass Official Documentation](https://sass-lang.com/documentation)
 2. [Advanced Sass Tutorials](https://www.tutorialspoint.com/sass/index.htm)
+
+
+https://sass-scss.ru/documentation/sassscript/operatsii_so_spiskami/
+https://www.w3schools.com/sass/sass_functions_color.php
+
+https://sass-lang.com/documentation/operators/
+https://github.com/simply-none/Sass-practices/blob/master/sass-basis-study.md
